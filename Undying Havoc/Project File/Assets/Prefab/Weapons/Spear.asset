@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6d9189c5370aa41b79486ebf0e6eb9, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier: 
+  isBought: 0
+  currentLevel: 0
+  colliderOffSet: {x: -0.38107234, y: 0.07303095}
+  colliderScale: {x: 1.0602653, y: 1.7581697}
+  weaponPosition: {x: 0, y: -1.334, z: 1.0947101}
+  weaponsData:
+  - name: Wooden Spear
+    weaponSprite: {fileID: 21300000, guid: c2aa52f2220b8884588f0b2516213ed7, type: 3}
+    resource: 1
+    cost: 20
+    damage: 20
+    damageOnWood: 0
+    damageOnStone: 0
+    damageOnIron: 0
+  - name: Bone Sear
+    weaponSprite: {fileID: 21300000, guid: 82cbd332424d78640b14d90b51b94d6f, type: 3}
+    resource: 4
+    cost: 30
+    damage: 40
+    damageOnWood: 0
+    damageOnStone: 0
+    damageOnIron: 0
+  - name: Stone Spear
+    weaponSprite: {fileID: 21300000, guid: 1d34bfbaaed90ee4a85e2c5fb67a52db, type: 3}
+    resource: 2
+    cost: 50
+    damage: 80
+    damageOnWood: 0
+    damageOnStone: 0
+    damageOnIron: 0
+  - name: Diamond Spear
+    weaponSprite: {fileID: 21300000, guid: 41811306681ecf849b4d653c2cc8ae94, type: 3}
+    resource: 3
+    cost: 100
+    damage: 160
+    damageOnWood: 0
+    damageOnStone: 0
+    damageOnIron: 0

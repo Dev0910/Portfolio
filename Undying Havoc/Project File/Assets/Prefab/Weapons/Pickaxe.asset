@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6d9189c5370aa41b79486ebf0e6eb9, type: 3}
+  m_Name: Pickaxe
+  m_EditorClassIdentifier: 
+  isBought: 0
+  currentLevel: 0
+  colliderOffSet: {x: -0.4364301, y: 0.012137294}
+  colliderScale: {x: 1.1709809, y: 1.3928092}
+  weaponPosition: {x: 0.103, y: -1.15, z: 1.0947101}
+  weaponsData:
+  - name: Wooden Pickaxe
+    weaponSprite: {fileID: 21300000, guid: e9ce4d9e0d97e31429e37041a544c65b, type: 3}
+    resource: 1
+    cost: 20
+    damage: 5
+    damageOnWood: 0
+    damageOnStone: 5
+    damageOnIron: 2
+  - name: Bone Pickaxe
+    weaponSprite: {fileID: 21300000, guid: 33ac88ccd203484498466d90ddc538bd, type: 3}
+    resource: 4
+    cost: 30
+    damage: 10
+    damageOnWood: 0
+    damageOnStone: 10
+    damageOnIron: 5
+  - name: Stone Pickaxe
+    weaponSprite: {fileID: 21300000, guid: bd6451fad94b81d4e825746c972b9072, type: 3}
+    resource: 2
+    cost: 50
+    damage: 20
+    damageOnWood: 0
+    damageOnStone: 15
+    damageOnIron: 10
+  - name: Iron Pickaxe
+    weaponSprite: {fileID: 21300000, guid: 1ad45405af181be42b19cba30b107cdd, type: 3}
+    resource: 3
+    cost: 100
+    damage: 40
+    damageOnWood: 0
+    damageOnStone: 25
+    damageOnIron: 20
